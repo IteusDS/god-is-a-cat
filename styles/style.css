@@ -377,7 +377,7 @@ h3 {
   }
 
   .portfolio_g1 {
-    margin: 6px 20% 6px 20%;
+    margin: 0px;
     align-self: center;
     justify-content: center;
     text-align: center;
@@ -395,14 +395,19 @@ h3 {
     text-align: center;
   }
   .footer a {
+    margin: 0%;
+    padding: 0px;
     text-align: center;
-    margin-left: 0;
-    margin-right: 0;
     float: none;
+
+    text-align: center;
   }
   .footer {
+    margin: 0%;
     text-align: center;
+    padding-right: 5vh;
     position: fixed;
+
     z-index: 8;
     width: 100%;
     position: fixed;
@@ -415,9 +420,14 @@ h3 {
   }
 
   .footer p {
-    text-align: center;
-    margin: 0px;
+    padding: 0px;
+    margin: 0%;
+
     float: none;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    padding-right: 5vh;
   }
 }
 
