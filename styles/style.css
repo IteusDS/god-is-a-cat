@@ -85,6 +85,9 @@ h3 {
   margin-right: 20px;
 }
 
+.header ul li a:hover {
+  color: rgb(124, 124, 124);
+}
 .header ul li:nth-of-type(4) {
   margin-right: 200px;
 }
@@ -104,6 +107,7 @@ h3 {
   width: 20px;
   height: 2px;
   background: #fff;
+  color: rgb(124, 124, 124);
 }
 
 .header ul li a {
@@ -137,6 +141,7 @@ h3 {
   animation: fadein 8s linear;
 }
 .portfolio_g1 img {
+  text-align: center;
   display: inline-block;
   align-items: center;
   position: relative;
@@ -157,9 +162,9 @@ h3 {
 }
 
 .portfolio_g1 {
-  margin-left: 200px;
-  margin-right: 20px;
+  margin: 0% auto;
   animation: fadein 5s linear;
+  text-align: center;
 }
 
 .mimir h3 {
